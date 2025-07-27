@@ -4,3 +4,8 @@ export interface Student {
   age: number;
   location: string;
 }
+
+export interface CardProps{
+  title:string;
+  content:string;
+}
