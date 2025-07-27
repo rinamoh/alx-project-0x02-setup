@@ -1,7 +1,7 @@
 import Header from "@/components/layout/Header";
 import { PostProps } from "@/interfaces";
 import { PostCard } from "@/components/common/PostCard";
-import { useState,useEffect } from "react";
+
 export default function Posts({ posts }: { posts: PostProps[] }) {
   return (
     <div>
