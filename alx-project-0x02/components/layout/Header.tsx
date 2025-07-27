@@ -1,15 +1,16 @@
 import Link from "next/link";
 export default function Header() {
-  return (
-    <header className="bg-blue-500 p-4 text-white">
-      <nav className="flex gap-4">
-        <Link href="/home" className="hover:underline">
-          Home
-        </Link>
-        <br />
-        <Link href="/about" className="hover:underline">
-          About
-        </Link>
+return (
+    <header>
+      <nav>
+        {/* Link to home page */}
+        <Link href="/home">Home</Link>
+        
+        {/* Link to about page */}
+        <Link href="/about">About</Link>
+        
+        {/* Link to posts page */}
+        <Link href="/posts">Posts</Link>
       </nav>
     </header>
   );
